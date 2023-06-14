@@ -39,6 +39,18 @@ footer.rodape a:hover{
     ;
 }
 
+.container3{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    ". . . . . . "
+    ". . . . . . "
+    ". . . dmain2 dmain2 ."
+    ". . .  dmain2 dmain2 ."
+    "footer footer footer footer footer footer"
+    ;
+}
+
 .imglogin{
     position: absolute;
     width: 10rem;
@@ -49,8 +61,21 @@ footer.rodape a:hover{
     background-color: #141414;
 }
 
+.imglogin2{
+    position: absolute;
+    width: 10rem;
+    margin-left: 68rem;
+    border: 3px solid #0097b27a;
+    border-radius: 50%;
+    background-color: #141414;
+}
+
 div.main{
     grid-area: dmain;
+}
+
+div.main2{
+    grid-area: dmain2;
 }
 
 aside{
@@ -111,8 +136,24 @@ div.main{
     color: white;
 }
 
+div.main2{
+    border: 1px solid #afa6a6;
+    border-radius: 1.2rem;
+    width: 60rem;
+    height: 60rem;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 4rem;
+    color: white;
+}
+
 input::placeholder{
     color: white;
+}
+
+option{
+    font-size: 1.5rem;
 }
 
 div.label{
@@ -123,7 +164,37 @@ div.label{
     font-size: 4rem;
 }
 
+div.label2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 1rem;
+}
+
 div.label input{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    width: 40rem;
+    height: 2.5rem;
+    text-align: center;
+    background-color: #e8edee7a;
+    border: none;
+    border-radius: 1.2rem;
+}
+
+div.label2 input{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    width: 40rem;
+    height: 2.5rem;
+    text-align: center;
+    background-color: #e8edee7a;
+    border: none;
+    border-radius: 1.2rem;
+}
+
+div.label2 select{
     font-size: 1.5rem;
     margin-left: 1rem;
     width: 40rem;
@@ -237,6 +308,12 @@ main p{
 
 div.main p{
     margin-top: 9.2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+div.main2 p{
+    margin-top: 7.2rem;
     font-size: 2rem;
     text-align: center;
 }
