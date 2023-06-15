@@ -50,13 +50,22 @@ ul.nav li{
     float: left;
 }
 
-a{
+aside a{
     text-decoration: none;
     padding: 0.8rem 2rem;
     display: block;
     line-height: 2.1rem;
     color: white;
     background: url(../IMAGENS/divisor.png) no-repeat left center;
+    transition: all;
+}
+
+aside a:hover{
+    background: white;
+    color: #b10333;
+    font-weight: bold;
+    transition: background-color 0.8s, color 0.8s;
+    transform: scale(1.1);
 }
 
 .primeiro{
