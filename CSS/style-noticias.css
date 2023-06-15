@@ -19,7 +19,7 @@ body{
 div.topo{
     height: 15rem;
     background: url(../IMAGENS/detalhe-topo.png) no-repeat right top;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-top: 2.5rem;
 }
 
@@ -31,4 +31,34 @@ h1.logo{
 
 span.h1{
     visibility: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.nav {
+    background: #b10333;
+    margin-top: 3rem;
+    font-size: 5rem;
+    float: left;
+}
+
+ul.nav li{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    display: block;
+    line-height: 2.1rem;
+    color: white;
+    background: url(../IMAGENS/divisor.png) no-repeat left center;
+}
+
+.primeiro{
+    background: none;
 }
