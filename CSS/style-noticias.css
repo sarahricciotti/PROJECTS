@@ -20,13 +20,13 @@ aside {
     background-attachment: fixed;
 }
 
-main{
+/* main{
     margin-top: 20rem;
     font-size: 3rem;
     width: 80rem;
     border: 1px solid red;
     margin: 20rem auto;
-}
+} */
 
 #container{
     width: 75rem;
@@ -69,7 +69,7 @@ ul.nav li{
 
 aside a{
     text-decoration: none;
-    padding: 0.8rem 1.6rem;
+    padding: 0.8rem 1.9rem;
     display: block;
     line-height: 2rem;
     color: white;
@@ -87,4 +87,64 @@ aside a:hover{
 
 .primeiro{
     background: none;
+}
+
+body.home ul.nav a#home,
+body.brasil ul.nav a#brasil,
+body.inter ul.nav a#inter,
+body.economia ul.nav a#economia,
+body.saude ul.nav a#saude,
+body.ciencia ul.nav a#ciencia,
+body.fotos ul.nav a#fotos{
+    color: #b10333;
+    background-color: white;
+    font-weight: bold;
+    transform: scale(1.1);
+    cursor: text;
+}
+
+#conteudo{
+    width: 75rem;
+    font-size: 3rem;
+    border: 1px solid red;
+    margin: 20rem auto 0;
+    /* display: block; */
+    background: white url(../IMAGENS/fundo-caixa.png);
+}
+
+div.primario{
+    width: 22rem;
+    font-size: 2.5rem;
+    float: left;
+    background: rgb(141, 141, 204);
+    padding: 1rem;
+    margin: 0 2rem 2rem 2rem;
+}
+
+div.secundario{
+    width: 22rem;
+    font-size: 2.5rem;
+    float: left;
+    background: #e3c4cd;
+    padding: 1rem;
+    margin: 0 2rem 2rem 2rem;
+}
+
+div.lateral{
+    width: 18rem;
+    font-size: 2.5rem;
+    float: left;
+    background: #91787f;
+    margin: 0 2rem 2rem 2rem;
+    padding: 1rem;
+}
+
+footer{
+    width: 100%;
+    background: #294c71;
+    height: 5rem;
+    font-size: 3rem;
+    line-height: 5rem;
+    text-align: right;
+    color: white;
 }
