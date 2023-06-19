@@ -29,7 +29,7 @@ aside {
 } */
 
 #container{
-    width: 75rem;
+    width: 80rem;
     margin: 0 auto;
 }
 
@@ -92,7 +92,7 @@ aside a:hover{
 body.home ul.nav a#home,
 body.brasil ul.nav a#brasil,
 body.inter ul.nav a#inter,
-body.economia ul.nav a#economia,
+body.entrevista ul.nav a#entrevista,
 body.saude ul.nav a#saude,
 body.ciencia ul.nav a#ciencia,
 body.fotos ul.nav a#fotos{
@@ -104,14 +104,14 @@ body.fotos ul.nav a#fotos{
 }
 
 #conteudo{
-    width: 75rem;
+    width: 80rem;
     font-size: 3rem;
     margin: 20rem auto 0;
     /* display: block; */
 }
 
 div.primario{
-    width: 25rem;
+    width: 27rem;
     float: left;
     padding: 1rem;
     margin: 0 1rem 2rem 1rem;
@@ -119,7 +119,7 @@ div.primario{
 }
 
 div.secundario{
-    width: 25rem;
+    width: 27rem;
     float: left;
     padding: 1rem;
     margin: 0 1rem 2rem 1rem;
@@ -127,10 +127,17 @@ div.secundario{
 }
 
 div.lateral{
-    width: 18rem;
+    width: 19rem;
     float: left;
     margin: 0 1rem 2rem 1rem;
     padding: 1rem;
+    background: white url(../IMAGENS/fundo-caixa.png);
+}
+
+div.entrev{
+    width: 54rem;
+    border: 1px solid red;
+    float: left;
     background: white url(../IMAGENS/fundo-caixa.png);
 }
 
@@ -159,7 +166,6 @@ footer{
     color: white;
     margin-top: 1rem;
     padding: 0.5rem;
-    font-weight: lighter;
     font-size: 1.7rem;
 }
 
@@ -169,14 +175,13 @@ h2 span{
 
 #conteudo p{
     padding: 1rem;
-    font-weight: lighter;
     font-size: 1.5rem;
 }
 
 #conteudo img{
     margin-top: 1rem;
     margin-left: 1rem;
-    align-content: center;
+    /* align-content: center; */
 }
 
 #conteudo a{
@@ -186,10 +191,10 @@ h2 span{
 #conteudo li{
     font-size: 2.8rem;
     padding: 0.5rem;
-    font-weight: lighter;
 }
 
 .primario a, .secundario a{
     display: block;
     font-size: 1.6rem;
 }
+ 
