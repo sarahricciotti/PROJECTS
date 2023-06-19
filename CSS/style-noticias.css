@@ -106,37 +106,32 @@ body.fotos ul.nav a#fotos{
 #conteudo{
     width: 75rem;
     font-size: 3rem;
-    border: 1px solid red;
     margin: 20rem auto 0;
     /* display: block; */
-    background: white url(../IMAGENS/fundo-caixa.png);
 }
 
 div.primario{
-    width: 22rem;
-    font-size: 2.5rem;
+    width: 25rem;
     float: left;
-    background: rgb(141, 141, 204);
     padding: 1rem;
-    margin: 0 2rem 2rem 2rem;
+    margin: 0 1rem 2rem 1rem;
+    background: white url(../IMAGENS/fundo-caixa.png);
 }
 
 div.secundario{
-    width: 22rem;
-    font-size: 2.5rem;
+    width: 25rem;
     float: left;
-    background: #e3c4cd;
     padding: 1rem;
-    margin: 0 2rem 2rem 2rem;
+    margin: 0 1rem 2rem 1rem;
+    background: white url(../IMAGENS/fundo-caixa.png);
 }
 
 div.lateral{
     width: 18rem;
-    font-size: 2.5rem;
     float: left;
-    background: #91787f;
-    margin: 0 2rem 2rem 2rem;
+    margin: 0 1rem 2rem 1rem;
     padding: 1rem;
+    background: white url(../IMAGENS/fundo-caixa.png);
 }
 
 footer{
@@ -147,4 +142,54 @@ footer{
     line-height: 5rem;
     text-align: right;
     color: white;
+}
+
+#conteudo h1{
+    background: #294c71;
+    color: white;
+    font-weight: bold;
+    padding: 0.3rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: center;
+}
+
+#conteudo h2{
+    background: #b10333;
+    color: white;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-weight: lighter;
+    font-size: 1.7rem;
+}
+
+h2 span{
+    font-size: 1.7rem;
+}
+
+#conteudo p{
+    padding: 1rem;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+#conteudo img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    align-content: center;
+}
+
+#conteudo a{
+    text-decoration: none;
+}
+
+#conteudo li{
+    font-size: 2.8rem;
+    padding: 0.5rem;
+    font-weight: lighter;
+}
+
+.primario a, .secundario a{
+    display: block;
+    font-size: 1.6rem;
 }
