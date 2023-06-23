@@ -233,6 +233,10 @@ li.mundo h3{
     color: #bfbfbf;
 }
 
+li.mundo p{
+    padding: 0;
+}
+
 .secundario li:hover{
     background: #eee;
     cursor: pointer;
