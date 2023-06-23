@@ -228,8 +228,9 @@ li.mundo a img{
     margin: 0.2rem;
 }
 
-li.mundo h3, p{
+li.mundo h3{
     padding: 0;
+    color: #bfbfbf;
 }
 
 .secundario li:hover{
