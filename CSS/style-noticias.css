@@ -103,6 +103,13 @@ body.fotos ul.nav a#fotos{
     cursor: text;
 }
 
+body.entrevista a#Sarah,
+body.entrevista a#samara{
+    background: url(../IMAGENS/marcador.png) left no-repeat;
+    color: #8e959d;
+    padding-left: 2rem;
+}
+
 #conteudo{
     width: 80rem;
     font-size: 3rem;
@@ -136,9 +143,9 @@ div.secundario{
 
 div.entrev{
     width: 54rem;
-    border: 1px solid red;
     float: left;
     background: white url(../IMAGENS/fundo-caixa.png);
+    display: flex;
 }
 
 .news{
@@ -177,6 +184,7 @@ footer{
     margin-top: 1rem;
     padding: 0.5rem;
     font-size: 1.7rem;
+    text-align: center;
 }
 
 h2 span{
@@ -185,7 +193,7 @@ h2 span{
 
 #conteudo p{
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 #conteudo img{
@@ -208,7 +216,7 @@ h2 span{
     font-size: 1.6rem;
 }
 
-.lateral a:hover{
+#lateral a:hover{
     background: url(../IMAGENS/marcador.png) left no-repeat;
     color: #8e959d;
     padding-left: 2rem;
