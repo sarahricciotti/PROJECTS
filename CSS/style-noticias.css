@@ -20,14 +20,6 @@ aside {
     background-attachment: fixed;
 }
 
-/* main{
-    margin-top: 20rem;
-    font-size: 3rem;
-    width: 80rem;
-    border: 1px solid red;
-    margin: 20rem auto;
-} */
-
 #container{
     width: 80rem;
     margin: 0 auto;
@@ -113,7 +105,7 @@ body.entrevista a#samara{
 #conteudo{
     width: 80rem;
     font-size: 3rem;
-    margin: 20rem auto 0;
+    margin: 18rem auto 0;
     /* display: block; */
 }
 
@@ -122,7 +114,6 @@ div.primario{
     float: left;
     padding: 1rem;
     margin: 0 1rem 2rem 1rem;
-    background: white url(../IMAGENS/fundo-caixa.png);
 }
 
 div.secundario{
@@ -130,14 +121,17 @@ div.secundario{
     float: left;
     padding: 1rem;
     margin: 0 1rem 2rem 1rem;
-    background: white url(../IMAGENS/fundo-caixa.png);
 }
 
 #lateral{
     width: 19rem;
     float: left;
     margin: 0 1rem 2rem 1rem;
-    padding: 1rem;
+    padding:  1rem;
+}
+
+div.caixa{
+    margin-top: 2rem;
     background: white url(../IMAGENS/fundo-caixa.png);
 }
 
@@ -174,16 +168,17 @@ footer{
     font-weight: bold;
     padding: 0.3rem;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: center;
+    margin-bottom: 1rem;
 }
 
 #conteudo h2{
+    display: inline;
     background: #b10333;
     color: white;
-    margin-top: 1rem;
-    padding: 0.5rem;
-    font-size: 1.7rem;
+    padding: 0.2rem;
+    font-size: 1.8rem;
 }
 
 h2 span{
@@ -203,6 +198,7 @@ h2 span{
 
 #conteudo a{
     text-decoration: none;
+    color: #131517;
 }
 
 #conteudo li{
@@ -220,4 +216,23 @@ h2 span{
     color: #8e959d;
     padding-left: 2rem;
 }
- 
+
+li.mundo a{
+    padding: 0.2rem;
+    border-bottom: 1px solid #b8b4b4;
+    height: 6.2rem;
+}
+
+li.mundo a img{
+    float: left;
+    margin: 0.2rem;
+}
+
+li.mundo h3, p{
+    padding: 0;
+}
+
+.secundario li:hover{
+    background: #eee;
+    cursor: pointer;
+}
