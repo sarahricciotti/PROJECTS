@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-size: 62.5%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body{
@@ -21,7 +21,7 @@ aside {
 }
 
 #container{
-    width: 80rem;
+    width: 85rem;
     margin: 0 auto;
 }
 
@@ -103,24 +103,10 @@ body.entrevista a#samara{
 }
 
 #conteudo{
-    width: 80rem;
+    width: 85rem;
     font-size: 3rem;
     margin: 18rem auto 0;
     /* display: block; */
-}
-
-div.primario{
-    width: 27rem;
-    float: left;
-    padding: 1rem;
-    margin: 0 1rem 2rem 1rem;
-}
-
-div.secundario{
-    width: 27rem;
-    float: left;
-    padding: 1rem;
-    margin: 0 1rem 2rem 1rem;
 }
 
 #lateral{
@@ -128,6 +114,20 @@ div.secundario{
     float: left;
     margin: 0 1rem 2rem 1rem;
     padding:  1rem;
+}
+
+#primario{
+    width: 27rem;
+    float: left;
+    padding: 1rem;
+    margin: 0 1rem 2rem 1rem;
+}
+
+#secundario{
+    width: 27rem;
+    float: left;
+    padding: 1rem;
+    margin: 0 1rem 2rem 1rem;
 }
 
 div.caixa{
@@ -206,7 +206,7 @@ h2 span{
     padding: 0.5rem;
 }
 
-.primario a, .secundario a{
+#primario a, #secundario a{
     display: block;
     font-size: 1.6rem;
 }
@@ -217,27 +217,26 @@ h2 span{
     padding-left: 2rem;
 }
 
-li.mundo a{
+li.mundo {
     padding: 0.2rem;
     border-bottom: 1px solid #b8b4b4;
-    height: 6.2rem;
 }
 
-li.mundo a img{
+.mundo a img{
     float: left;
-    margin: 0.2rem;
+    margin: 0.5rem;
 }
 
 li.mundo h3{
     padding: 0;
-    color: #bfbfbf;
+    color: #294c71;
 }
 
-li.mundo p{
-    padding: 0;
+.mundo p{
+    padding: 0.2rem;
 }
 
-.secundario li:hover{
+#secundario li:hover{
     background: #eee;
     cursor: pointer;
 }
