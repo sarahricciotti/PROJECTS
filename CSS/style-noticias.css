@@ -107,6 +107,7 @@ body.entrevista a#samara{
     font-size: 3rem;
     margin: 18rem auto 0;
     /* display: block; */
+    border: 1px solid red;
 }
 
 #lateral{
@@ -121,6 +122,14 @@ body.entrevista a#samara{
     float: left;
     padding: 1rem;
     margin: 0 1rem 2rem 1rem;
+}
+
+#primario2{
+    width: 55rem;
+    float: left;
+    padding: 1rem;
+    margin: 0 1rem 2rem 1rem;
+    border: 1px solid red;
 }
 
 #secundario{
@@ -174,12 +183,14 @@ footer{
 }
 
 #conteudo h2{
-    display: inline;
+    display: inline-block;
     background: #b10333;
     color: white;
     padding: 0.2rem;
     font-size: 1.8rem;
 }
+
+#primario
 
 h2 span{
     font-size: 1.7rem;
@@ -192,7 +203,6 @@ h2 span{
 
 #conteudo img{
     margin-top: 1rem;
-    margin-left: 1rem;
     /* align-content: center; */
 }
 
@@ -206,7 +216,13 @@ h2 span{
     padding: 0.5rem;
 }
 
-#primario a, #secundario a{
+#primario a, #primario2 a{
+    display: block;
+    font-size: 1.6rem;
+    color: #b10333;
+}
+
+#secundario a{
     display: block;
     font-size: 1.6rem;
 }
