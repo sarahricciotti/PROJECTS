@@ -129,7 +129,6 @@ body.entrevista a#samara{
     float: left;
     padding: 1rem;
     margin: 0 1rem 2rem 1rem;
-    border: 1px solid red;
 }
 
 #secundario{
@@ -238,9 +237,14 @@ li.mundo {
     border-bottom: 1px solid #b8b4b4;
 }
 
+li.mundo2 {
+    padding: 1rem;
+    border-bottom: 1px solid #b8b4b4;
+}
+
 .mundo a img{
     float: left;
-    margin: 0.5rem;
+    margin: 0.2rem;
 }
 
 li.mundo h3{
@@ -249,10 +253,28 @@ li.mundo h3{
 }
 
 .mundo p{
-    padding: 0.2rem;
+    padding: 2rem;
 }
 
-#secundario li:hover{
+.mundo2 a img{
+    float: left;
+    margin: 0.2rem;
+}
+
+li.mundo2 h3{
+    padding: 0;
+    color: #294c71;
+}
+
+.mundo2 p{
+    padding: 0.8rem;
+}
+
+.mundo2 a{
+    margin-bottom: 2rem;
+}
+
+#secundario, #primario2 li:hover{
     background: #eee;
     cursor: pointer;
 }
