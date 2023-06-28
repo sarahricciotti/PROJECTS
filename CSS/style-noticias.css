@@ -274,7 +274,12 @@ li.mundo2 h3{
     margin-bottom: 2rem;
 }
 
-#secundario, #primario2 li:hover{
+#secundario li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+#primario2 li:hover{
     background: #eee;
     cursor: pointer;
 }
