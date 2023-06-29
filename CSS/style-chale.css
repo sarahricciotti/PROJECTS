@@ -8,4 +8,40 @@ body{
     font-family: 'Comic Neue', cursive;
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    background: white url(../IMAGENS/chale-bg.png);
+    margin: 1.5rem;
+}
+
+#container{
+    border: 1px solid red;
+    background: #ede9cc;
+}
+
+h1{
+    font-size: 3.2rem;
+}
+
+div.topo{
+    position: relative;
+    background: #dbcd87;
+    height: 25rem;
+    min-height: 2.5rem;
+}
+
+div.area-logo{
+    position: absolute;
+    background: url(../IMAGENS/chale-topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 25rem;
+    top: 0;
+    left: 0;
+}
+
+div.area-menu{
+    position: absolute;
+    background: url(../IMAGENS/chale-topo-imagem-lateral.png) no-repeat;
+    width: 45rem;
+    height: 25rem;
+    top: 0;
+    right: 0;
 }
