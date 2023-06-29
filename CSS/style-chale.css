@@ -15,10 +15,13 @@ body{
 #container{
     border: 1px solid red;
     background: #ede9cc;
+    margin: 0 auto;
+    min-width: 74rem;
+    max-width: 136.9rem;
 }
 
 h1{
-    font-size: 3.2rem;
+    font-size: 4.2rem;
 }
 
 div.topo{
@@ -35,13 +38,58 @@ div.area-logo{
     height: 25rem;
     top: 0;
     left: 0;
+    z-index: 1;
+}
+
+.logo a{
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    z-index: 3;
+    background: url(../IMAGENS/chale-logo.png) no-repeat;
+    width: 15.1rem;
+    height: 6.6rem;
+    text-indent: -900rem;
 }
 
 div.area-menu{
     position: absolute;
     background: url(../IMAGENS/chale-topo-imagem-lateral.png) no-repeat;
-    width: 45rem;
+    width: 63rem;
     height: 25rem;
     top: 0;
     right: 0;
+    z-index: 2;
+}
+
+div.menu{
+    margin-left: 10rem;
+    margin-right: 2.5rem;
+    padding-top: 1.5rem;
+}
+
+div.menu-locais{
+    font-size: 2.8rem;
+    color: #8b8448;
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.locais{
+    line-height: 2.6rem;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.reserva{
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 0.5rem 1rem;
+    float: right;
 }
